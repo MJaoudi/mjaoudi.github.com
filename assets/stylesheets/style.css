@@ -5,9 +5,11 @@ overflow-x: hidden;
 
 body {
   margin: 0;
-  padding: 2em;
-  background-color: #bbb;
-  color:#494949;
+  padding: 0em;
+  color: #3288C2;
+  background-color:#07093D;
+  margin-left: 200px;
+  margin-top:20px;
   font-family: "QuicksandBook", Verdana, Arial, Helvetica, sans-serif;
 }
 
@@ -27,12 +29,13 @@ body {
 }
 
 h1, h2, h3{
-  text-shadow: 0px 1px 0px #e5e5ee;
+  text-shadow: 0px 1px 0px #599679;
   font-weight: normal;
+  color:77CCA4;
 }
 
  a{
-  color: #222;
+  color: #91C8ED;
   text-shadow: 0px 1px 0px #8E8E96;
   text-decoration: none;
  }
@@ -78,11 +81,11 @@ h1, h2, h3{
 }
 
 #sidebar{
-  text-align: right;
-  width:180px;
-  height: 95%;
-  border-right: 1px solid #999;
-  padding-right: 2em;
+  position: absolute;
+width: 200px;
+left: 20px;
+padding:0px;
+margin:0px
 }
 
 #background {
