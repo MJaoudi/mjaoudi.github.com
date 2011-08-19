@@ -1,0 +1,10 @@
+---
+layout: default
+title: My Projects
+frontpage: true
+categories:
+updated_at: 2011-07-23
+
+---
+
+h3. My Projects

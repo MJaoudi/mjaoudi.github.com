@@ -1,0 +1,9 @@
+---
+layout: default
+title: My Projects
+frontpage: true
+categories:
+- info
+---
+
+h3. My Projects

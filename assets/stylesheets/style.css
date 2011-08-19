@@ -10,7 +10,7 @@ body {
   background-color:#07093D;
   margin-left: 200px;
   margin-top:20px;
-  font-family: "QuicksandBook", Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue";
 }
 
 #post{
@@ -29,14 +29,12 @@ body {
 }
 
 h1, h2, h3{
-  text-shadow: 0px 1px 0px #599679;
   font-weight: normal;
   color:77CCA4;
 }
 
  a{
-  color: #91C8ED;
-  text-shadow: 0px 1px 0px #8E8E96;
+  color: #25618A;
   text-decoration: none;
  }
 
@@ -46,8 +44,17 @@ h1, h2, h3{
   
  }
 
+ #sidebar a{
+   font-size:2.5em;
+ }
+ #sidebar a:hover{
+     border-bottom: 1px solid #B1EBFD;
+  border-top: 1px solid #B1EBFD;
+ }
+
  a:visited {
-  color: #555;
+  color: #25618A;
+
  }
  
  a.inline{
