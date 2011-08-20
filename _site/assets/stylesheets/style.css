@@ -1,5 +1,5 @@
 html.index{
-width: 2000px;
+width: 1000px;
 overflow-x: hidden;
 }
 
@@ -8,8 +8,9 @@ body {
   padding: 0em;
   color: #3288C2;
   background-color:#07093D;
-  margin-left: 200px;
+  margin-left: 300px;
   margin-top:20px;
+  margin-right:40px;
   font-family: "Helvetica Neue";
 }
 
@@ -30,17 +31,20 @@ body {
 
 h1, h2, h3{
   font-weight: normal;
-  color:77CCA4;
+  color:#77CCA4;
+}
+h1{
+  font-size:4em;
 }
 
  a{
-  color: #25618A;
+  color: #77CCA4;
   text-decoration: none;
  }
 
  a:hover{
   color: #555;
-  text-shadow: 0px -1px 0px #3E3E43;
+  text-shadow: 0px 1px 0px #8BCCAD;
   
  }
 
@@ -53,7 +57,7 @@ h1, h2, h3{
  }
 
  a:visited {
-  color: #25618A;
+  color: #03A157;
 
  }
  
@@ -70,7 +74,7 @@ h1, h2, h3{
    border-top-right-radius: 8px;
    background-color: #333;
    color: #eee;
-   text-shadow: 0px 1px 0px #000;
+   text-shadow: 0px 1px 0px #ffffff;
    padding-left: 1em;
    padding-right: 1em;
  }

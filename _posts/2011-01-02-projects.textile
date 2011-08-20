@@ -3,7 +3,8 @@ layout: default
 title: My Projects
 frontpage: true
 categories:
-- project
 ---
 
 h1. My Projects
+
+p. HELLO

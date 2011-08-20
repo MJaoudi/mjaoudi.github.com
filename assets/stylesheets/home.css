@@ -17,7 +17,8 @@
   position: absolute;
   top:3em;
   left: 270px;
-  width: 2000px;
+  right: 50px;
+  width: auto;
 }
 
 .lt-1024 #subtext, .lt-1024 #site h1 {
