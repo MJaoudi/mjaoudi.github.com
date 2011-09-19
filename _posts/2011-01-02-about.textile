@@ -7,4 +7,4 @@ categories:
 
 h2. About Me
 
-p. I am the placeHolder. My real name is Michael Jaoudi. I am an undergraduate student majoring in Computer Science at New York University. I love programming. Currently, I know three languages: Java, C++ and Objective-C.
+p. I am the placeHolder. My real name is Michael Jaoudi. I am an undergraduate student majoring in Computer Science at New York University. Currently, I know three languages: Java, C++ and Objective-C.
