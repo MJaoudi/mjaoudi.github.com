@@ -130,14 +130,7 @@ textarea {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-body {
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  color: #ffffff;
-  background-color: #5198FF;
-}
+
 a {
   color: #ffffff;
   text-decoration: none;
