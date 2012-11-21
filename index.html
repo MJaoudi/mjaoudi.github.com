@@ -2,79 +2,158 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Mike Jaoudi - Home</title>
+  <title>Mike Jaoudi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="author" content="Mike Jaoudi">
+  <meta name="author" content="">
 
-  <!-- <meta http-equiv="REFRESH" content="0;url=http://mikejaoudi.com"> -->
   <!-- Le styles -->
-  <link href="assets/css/bootstrap.css" rel="stylesheet"> 
-  <link href="assets/css/custom.css" rel="stylesheet">
+  <link href="./assets/css/bootstrap.css" rel="stylesheet">
+  <link href="./assets/css/custom.css" rel="stylesheet">
 
-  <style>
-  body {
-    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-  }
-  </style>
-  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
-  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
 
-      <!-- Le fav and touch icons -->
-
+      <!-- Fav and touch icons -->
+      <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
     </head>
 
     <body>
-      <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-          <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="">Mike Jaoudi</a>
-            <div class="nav-collapse">
-              <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
-        </div>
-      </div>
 
-      <div class="container">
+      <div class="container-narrow">
+        <hr>
+
+        <div class="jumbotron">
           <h1>Mike Jaoudi</h1>
-          <h2>(JOW - DEE)</h2><br>
-          <hr>
-          <div class="content">
-          <p>My name is Mike Jaoudi. I am an undergraduate student majoring in Computer Science at New York University.</p>
+          <h3 class="muted"> (JOW-DEE) </h3>
+          <p class="lead">My name is Mike Jaoudi. I am an undergraduate student majoring in Computer Science at New York University.</p>
         </div>
-      </div> <!-- /container -->
+
+        <hr>
+
+        <div >
+          <a name="projects"></a><h2>Projects</h2>
+          <div class="accordion" id="accordion">
+
+
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#fencingref">
+                  <img src="assets/img/FencingRef.png" alt="FencingRef"><p>FencingRef</p>
+                </a>
+              </div>
+              <div id="fencingref" class="accordion-body collapse">
+                <p>FencingRef is an iPhone app designed to help Fencing referees judge a bout. Referees would normally use a printed out scoresheet and make points and penalties on there. They would also to have a seperate device to keep track of the time. This app was designed to provide a streamlined and efficient way for referees to run and record fencing matches. FencingRef was the first app I ever created. It was originally created in my later years of High School.</p><br><br>
+                <div id="fencingCarousel" class="carousel slide">
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+                    <div class="active item"><img src="assets/img/FencingRef1.png" width="40%"></div>
+                    <div class="item"><img src="assets/img/FencingRef2.png" width="40%"></div>
+                    <div class="item"><img src="assets/img/FencingRef3.png" width="40%"></div>
+                    <div class="item"><img src="assets/img/FencingRef4.png" width="40%"></div>
+
+                  </div>
+                  <!-- Carousel nav -->
+                  <a class="carousel-control left" href="#fencingCarousel" data-slide="prev">&lsaquo;</a>
+                  <a class="carousel-control right" href="#fencingCarousel" data-slide="next">&rsaquo;</a>
+                </div>
+                <br><br>
+                <p>Reviews:</p>
+                <p>"FencingRef is the premier mobile tool for the fencing referee" -Fencing.net</p>
+                <p>"THE iPhone and iTouch app for fencing refs" -American Fencing Magazine</p>
+
+                <div id="AppStore">
+                  <a href="http://itunes.apple.com/us/app/fencingref/id322732891?mt=8">
+                    <img src="assets/img/AppStore.png" width="40%" height="40%"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#snakez">
+                    <img src="assets/img/Snakez.png" alt="FencingRef"><p>Snakez</p>
+                  </a>
+                </div>
+                <div id="snakez" class="accordion-body collapse">
+                  <p>Snakez is the classic Snake game upgraded for iOS. It also includes a head-to-head multiplayer mode over Bluetooth. Snakez was developed in my Freshman year of college. And it is free!</p>
+                  <div id="snakezCarousel" class="carousel slide">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                      <div class="active item"><img src="assets/img/Snakez_Screenshot1.png" width="60%"></div>
+                      <div class="item"><img src="assets/img/Snakez_Screenshot2.png" width="60%"></div>
+                      <div class="item"><img src="assets/img/Snakez_Screenshot3.png" width="60%"></div>
+                      <div class="item"><img src="assets/img/Snakez_Screenshot4.png" width="60%"></div>
+
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#snakezCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#snakezCarousel" data-slide="next">&rsaquo;</a>
+                  </div>
+                  <div id="AppStore">
+                    <a href="http://itunes.apple.com/us/app/snakez/id517540318?mt=8">
+                      <img src="assets/img/AppStore.png" width="40%" height="40%"></a>
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+              </div> <!-- End of Accordion -->
+            </div>
+
+            <hr>
+
+
+            <div >
+              <div>
+                <a name="about"></a><h2 class="inline">About me</h2>
+                <div class="socialicon">
+                  <a href="mailto:mike@mikejaoudi.com"><img src="./assets/img/email.png"></a>
+                  <a href="http://www.facebook.com/mjaoudi"><img src="./assets/img/facebook.png"></a>
+                  <a href="https://twitter.com/MikeJaoudi"><img src="./assets/img/twitter.png"></a>
+                  <a href="https://github.com/MJaoudi"><img src="./assets/img/github.png"></a>
+                  <a href="http://www.linkedin.com/pub/mike-jaoudi/4b/787/518"><img src="./assets/img/linkedin.png"></a>
+                </div>
+              </div>
+              <p>I am a Computer Science major at New York University. I love programming. My current focus is developing iOS app using Objective-C. I also have experience with C, C++ and Java.</p>
+              <p>I am also an NCAA Fencer</p>
+            </div>
+            <br><br><br>
+            <hr>
+
+            <div class="footer">
+              <p>&copy; Mike Jaoud 2012. Made using <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>. Social Network icons from <a href="https://www.gosquared.com/resources/gosocial"> GoSquared</a></p>
+            </div>
+
+          </div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap-transition.js"></script>
+    <script src="./assets/js/bootstrap-alert.js"></script>
+    <script src="./assets/js/bootstrap-modal.js"></script>
+    <script src="./assets/js/bootstrap-dropdown.js"></script>
+    <script src="./assets/js/bootstrap-scrollspy.js"></script>
+    <script src="./assets/js/bootstrap-tab.js"></script>
+    <script src="./assets/js/bootstrap-tooltip.js"></script>
+    <script src="./assets/js/bootstrap-popover.js"></script>
+    <script src="./assets/js/bootstrap-button.js"></script>
+    <script src="./assets/js/bootstrap-collapse.js"></script>
+    <script src="./assets/js/bootstrap-carousel.js"></script>
+    <script src="./assets/js/bootstrap-typeahead.js"></script>
 
   </body>
   </html>
