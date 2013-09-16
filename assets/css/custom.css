@@ -9,6 +9,17 @@ body {
 h1, h2, h3 {
   line-height: 70px; }
 
+p{
+  margin-bottom: 40px;
+}
+
+h2{
+  font-size: 50px;
+}
+
+.nobottom{
+  margin-bottom: 0px;
+}
 .container-narrow {
   margin: 0 auto;
   max-width: 700px; }
@@ -50,10 +61,7 @@ h1, h2, h3 {
   margin-top: 40px;
   display: inline; }
 
-.socialicon {
-  float: right;
-  display: inline;
-  margin-top: 20px; }
+
 
 .accordion-group {
   /*width: 1000px;*/
@@ -97,3 +105,26 @@ h1, h2, h3 {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+.pict{
+  float: left;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 457px) {
+.socialicon {
+  float: left;
+  display: inline;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+
+  }
+@media only screen and (min-width: 457px) {
+.socialicon {
+  float: right;
+  display: inline;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+} }
