@@ -120,6 +120,10 @@ h2{
   margin-bottom: 20px;
 }
 
+.jumbotron{
+  margin: 0px;
+}
+
   }
 @media only screen and (min-width: 457px) {
 .socialicon {
