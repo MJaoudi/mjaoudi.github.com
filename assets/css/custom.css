@@ -16,6 +16,33 @@ p{
 h2{
   font-size: 50px;
 }
+.mike{
+  /*width: 100%;*/
+  float: left;
+  text-align: center;
+  margin-right: 30px;
+
+}
+
+
+.jaoudi{
+  float: left;
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.jaoudi h3{
+  text-align: right;
+}
+
+
+
+.title .btn {
+  font-size: 21px;
+  padding: 14px 24px; 
+}
 
 .nobottom{
   margin-bottom: 0px;
@@ -29,23 +56,29 @@ h2{
 
 .jumbotron {
   margin: 60px 0;
-  text-align: center; }
+  text-align: center;
+  display: inline-block; 
+}
 
 .jumbotron h1 {
   font-size: 110px;
-  line-height: 1; }
+  line-height: 1; 
+}
 
 .jumbotron h3 {
-  text-align: right;
+/*  text-align: right;
   margin-right: 60px;
-  margin-bottom: .68em;
-  font-size: 45px; }
+  margin-bottom: .68em;*/
+  font-size: 45px; 
+  /*font-weight: 300;*/
+}
 
 .jumbotron p {
-  float: center;
+  /*float: center;*/
   margin: auto;
   max-width: 500px;
-  font-size: 26px; }
+  font-size: 26px; 
+}
 
 .jumbotron .btn {
   font-size: 21px;
@@ -123,6 +156,19 @@ h2{
 .jumbotron{
   margin: 0px;
 }
+
+.mike h1{
+  font-size: 80px;
+}
+.jaoudi h1{
+  font-size: 80px;
+}
+
+.jaoudi h3{
+  text-align: left;
+  font-size: 35px;
+}
+
 
   }
 @media only screen and (min-width: 457px) {
