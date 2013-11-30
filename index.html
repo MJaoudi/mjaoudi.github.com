@@ -28,136 +28,116 @@
 
   </script>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-      <div class="container-narrow">
-        <hr>
-        <div>
-        <div class="jumbotron">
-          <div class="mike"><h1>Mike</h1></div>
-          
-          <div class="jaoudi">
-            <h1>Jaoudi</h1>
-            <h3 class="muted"> (JOW-DEE) </h3>
-            <br>
+  <div class="container-narrow">
+    <hr>
+    <div>
+      <div class="jumbotron">
+        <div class="mike"><h1>Mike</h1></div>
+
+        <div class="jaoudi">
+          <h1>Jaoudi</h1>
+          <h3 class="text-muted"> (JOW-DEE) </h3>
+          <br>
+        </div>
+      </div>
+      <p class="lead">My name is Mike Jaoudi. I am an undergraduate student majoring in Computer Science at New York University.</p>
+    </div>
+  </div>
+  <div class="container">
+
+    <br><br>
+    <div class="project-group">
+
+      <h2>Projects</h2>
+      <hr>
+
+      <div class="project">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-responsive" src="./assets/img/NYUBusTracker.png">
+          </div>
+          <div class="col-md-6">
+            <h3>NYU Bus Tracker</h3>
+            <p>The NYU Bus Tracker is an app designed to help students use the NYU buses. It takes real-time bus locations and combines them with scheduled departure times that the university provides. All of the times I reformatted and stored remotely. Every time the app starts up, it checks for changes in the times and seamlessly updates them. Northbound and southbound stops are presented as two stops by the real-time API but are presented to the user as one stop. The app can determine if they intended to use the northbound or southbound bus. The same stops on multiple routes are also combined. All of these things can be configured remotely so the app doesn't need to be updated for every little change. This is all to make a clean and easy experience for the user. The app is also fully functional without an internet connection. This app was developed at the beginning of my Junior year of college.</p>
+            <div class="btn-group">
+              <a href="https://itunes.apple.com/us/app/nyu-bus-tracker/id718067401?mt=8"><img src="assets/img/AppStore.png"></a>
+              <a href="http://www.NYUBusTracker.com"><button class="btn btn-lg btn-primary" type="button"> 
+                Official Website</button></a><br><br>
+              </div>
+            </div>
           </div>
         </div>
-          <p class="lead">My name is Mike Jaoudi. I am an undergraduate student majoring in Computer Science at New York University.</p>
-        </div>
+        <div class="project">
+          <div class="row">
+            <div class="col-md-6">
 
-        <hr>
-
-        <div>
-          <a name="projects"></a><h2>Projects</h2>
-          <div class="accordion" id="accordion">
-
-
-            <div class="accordion-group">
-              <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#fencingref">
-                  <img src="assets/img/FencingRef.png" alt="FencingRef"><p>FencingRef</p>
-                </a>
-              </div>
-              <div id="fencingref" class="accordion-body collapse">
-                <p>FencingRef is an iPhone app designed to help Fencing referees judge a bout. Referees would normally use a printed out scoresheet and make points and penalties on there. They would also to have a separate device to keep track of the time. This app was designed to provide a streamlined and efficient way for referees to run and record fencing matches. FencingRef was the first app I ever created. It was originally created in my later years of High School.</p><br><br>
-                <div id="fencingCarousel" class="carousel slide">
-                  <!-- Carousel items -->
-                  <div class="carousel-inner">
-                    <div class="active item"><img src="assets/img/FencingRef1.png" width="60%"></div>
-                    <div class="item"><img src="assets/img/FencingRef2.png" width="60%"></div>
-                    <div class="item"><img src="assets/img/FencingRef3.png" width="60%"></div>
-                    <div class="item"><img src="assets/img/FencingRef4.png" width="60%"></div>
-
-                  </div>
-                  <!-- Carousel nav -->
-                  <a class="carousel-control left" href="#fencingCarousel" data-slide="prev">&lsaquo;</a>
-                  <a class="carousel-control right" href="#fencingCarousel" data-slide="next">&rsaquo;</a>
+              <img class="img-responsive" src="./assets/img/Snakez_Screenshot1.png">
+            </div>
+            <div class="col-md-6">
+              <h3>Snakez</h3>
+              <p>Snakez is the classic Snake game upgraded for the iPhone and iPad. What makes it unique is a head-to-head multiplayer mode over Bluetooth. It was built on top of <a href="http://www.cocos2d-iphone.org/">cocos2d</a>. Snakez was developed in my Freshman year of college. And it is free!</p>
+              <div class="btn-group">
+                <a href="http://itunes.apple.com/us/app/snakez/id517540318?mt=8"><img src="assets/img/AppStore.png"></a>
+                <a href="https://github.com/MikeJaoudi/Snakez"><button class="btn btn-lg btn-primary" type="button"> 
+                  GitHub Repo</button></a><br><br>
                 </div>
-                <br><br>
-                <p>Reviews:</p>
-                <p>"FencingRef is the premier mobile tool for the fencing referee" -Fencing.net</p>
-                <p>"THE iPhone and iTouch app for fencing refs" -American Fencing Magazine</p>
-                <div class="AppStore">
+              </div>
 
-                  <a href="http://itunes.apple.com/us/app/fencingref/id322732891?mt=8">
-                    <img src="assets/img/AppStore.png"></a>
-                    <a href="http://www.FencingRef.com"><button class="btn btn-large btn-primary" type="button"> 
+            </div>
+          </div>
+          <div class="project">
+
+            <div class="row">
+              <div class="col-md-6">
+                <img class="img-responsive" src="./assets/img/FencingRefScreen.png">
+              </div>
+              <div class="col-md-6">
+                <h3>FencingRef</h3>
+                <p>FencingRef is an iPhone app designed to help Fencing referees judge a fencing match. Referees would normally use a printed out scoresheet and write down points and penalties on there. Then they have to do various calculations by hand. They would use a separate device to keep track of the time. This app was designed to provide a streamlined and efficient way for referees to run and record fencing matches. FencingRef was the first app I ever created. It was originally created in my later years of High School.</p>
+                <div class="btn-group">
+                  <a href="https://itunes.apple.com/us/app/fencingref/id322732891?mt=8"><img src="assets/img/AppStore.png"></a>
+                  <a href="http://www.FencingRef.com"><button class="btn btn-lg btn-primary" type="button"> 
                     Official Website</button></a><br><br>
                   </div>
-
                 </div>
               </div>
-
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#snakez">
-                    <img src="assets/img/Snakez.png" alt="FencingRef"><p>Snakez</p>
-                  </a>
-                </div>
-                <div id="snakez" class="accordion-body collapse">
-                  <p>Snakez is the classic Snake game upgraded for iOS. It also includes a head-to-head multiplayer mode over Bluetooth. Snakez was developed in my Freshman year of college. And it is free!</p>
-                  <div id="snakezCarousel" class="carousel slide">
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-                      <div class="active item"><img src="assets/img/Snakez_Screenshot1.png" width="90%"></div>
-                      <div class="item"><img src="assets/img/Snakez_Screenshot2.png" width="90%"></div>
-                      <div class="item"><img src="assets/img/Snakez_Screenshot3.png" width="90%"></div>
-                      <div class="item"><img src="assets/img/Snakez_Screenshot4.png" width="90%"></div>
-
-                    </div>
-                    <!-- Carousel nav -->
-                    <a class="carousel-control left" href="#snakezCarousel" data-slide="prev">&lsaquo;</a>
-                    <a class="carousel-control right" href="#snakezCarousel" data-slide="next">&rsaquo;</a>
-                  </div>
-                  <div class="AppStore">
-                    <a href="http://itunes.apple.com/us/app/snakez/id517540318?mt=8">
-                      <img src="assets/img/AppStore.png"></a>
-                      <a href="https://github.com/MJaoudi/Snakez"><button class="btn btn-large btn-primary" type="button"> 
-                    GitHub Repo</button></a><br><br>
-                    </div>
-
-                  </div>
-                </div>
-
-
-
-              </div> <!-- End of Accordion -->
             </div>
+          </div>
+          <br><hr><br>
 
-            <br><hr><br>
 
-
+          <div>
             <div>
-              <div>
-                <a name="about"></a><h2 class="inline">About Me</h2>
-                <div class="socialicon">
-                  <a href="mailto:mike@mikejaoudi.com"><img src="./assets/img/email.png"></a>
-                  <a href="http://www.facebook.com/mjaoudi"><img src="./assets/img/facebook.png"></a>
-                  <a href="https://twitter.com/MikeJaoudi"><img src="./assets/img/twitter.png"></a>
-                  <a href="https://github.com/MikeJaoudi"><img src="./assets/img/github.png"></a>
-                  <a href="http://www.linkedin.com/pub/mike-jaoudi/4b/787/518"><img src="./assets/img/linkedin.png"></a>
-                </div>
+              <a name="about"></a><h2 class="inline">About Me</h2>
+              <div class="socialicon">
+                <a href="mailto:mike@mikejaoudi.com"><img src="./assets/img/email.png"></a>
+                <a href="https://twitter.com/MikeJaoudi"><img src="./assets/img/twitter.png"></a>
+                <a href="https://github.com/MikeJaoudi"><img src="./assets/img/github.png"></a>
+                <a href="http://www.linkedin.com/pub/mike-jaoudi/4b/787/518"><img src="./assets/img/linkedin.png"></a>
               </div>
-              <img src="./assets/img/Camp.png" class="pict">
-              <br><br><br><p>I am a Computer Science major at New York University. I love programming. My current focus is developing iOS app using Objective-C. I also have experience with C, C++ and Java.</p>
-              <p>For the past three summers I have worked at iD Tech Camps at Princeton University. I have worked as an Instructor, Lead Instructor and Curriculum Developer. Each week I get 8 students in my class. The have an entire week to learn new material and ultimately create a project to take home. The camp is also an overnight camp so we hold video game tournaments, movie nights, a casino night and a disco!</p>
-              <p class="nobottom">I am also an iOS Tutorial Team Member for <a href="http://www.raywenderlich.com/about#mjaoudi">RayWenderlich.com</a>. Writing for this site has been a tremendous opportunity. The site gets <i>millions</i> of hits a month.  I work with some incredible people to edit and improve my tutorials. I wrote a tutorial series called <b>Learn to Code iOS Apps</b>. The series teaches how to write an iOS app in Objective-C given no prior programming experience. The tutorial series has 4 parts:
+            </div>
+            <img src="./assets/img/Camp.png" class="pict">
+            <br><br><br><p>I&nbsp;am&nbsp;a&nbsp;Computer Science major at New York University. I love programming. My current focus is developing iOS app using Objective-C. I also have experience with C, C++ and Java.</p>
+            <p>For the past three summers I have worked at iD Tech Camps at Princeton University. I have worked as an Instructor, Lead Instructor and Curriculum Developer. Each week I get 8 students in my class. The have an entire week to learn new material and ultimately create a project to take home. The camp is also an overnight camp so we hold video game tournaments, movie nights, a casino night and a disco!</p>
+            <p class="nobottom">I am also an iOS Tutorial Team Member for <a href="http://www.raywenderlich.com/about#mjaoudi">RayWenderlich.com</a>. Writing for this site has been a tremendous opportunity. The site gets <i>millions</i> of hits a month.  I work with some incredible people to edit and improve my tutorials. I wrote a tutorial series called <b>Learn to Code iOS Apps</b>. The series teaches how to write an iOS app in Objective-C given no prior programming experience. The tutorial series has 4 parts:
               <ul><li><a href="http://www.raywenderlich.com/38557/learn-to-code-ios-apps-1-welcome-to-programming">Part 1: Welcome to Programming</a></li>
                 <li><a href="http://www.raywenderlich.com/40293/learn-to-code-ios-apps-2-strings-arrays-objects-and-classes">Part 2: Strings, Arrays, Objects and Classes</a></li>
                 <li><a href="http://www.raywenderlich.com/25561/learn-to-code-ios-apps-3-your-first-app">Part 3: Your First App</a></li>
                 <li><a href="http://www.raywenderlich.com/27191/learn-to-code-ios-apps-4-making-it-beautiful">Part 4: Making it Beautiful</a></li></ul></p>
-              <p>I am also an NCAA Fencer at New York University (I fence Épée in case anyone was curious).  </p>
-            </div>
-            <br><br><br>
-            <hr>
+                <p>I am also an NCAA Fencer at New York University (I fence Épée in case anyone was curious).  </p>
+              </div>
+              <br><br><br>
+              <hr>
 
-            <div class="footer">
-              <p>&copy; Mike Jaoudi 2013. Made using <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>. Social Network icons from <a href="https://www.gosquared.com/resources/gosocial"> GoSquared</a></p>
-            </div>
+              <div class="footer">
+                <p>&copy; Mike Jaoudi 2013. Made using <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>. Social Network icons from <a href="https://www.gosquared.com/resources/gosocial"> GoSquared</a></p>
+              </div>
 
-          </div> <!-- /container -->
+            </div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->

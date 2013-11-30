@@ -6,66 +6,120 @@ body {
   font-weight: 200;
   line-height: 30px; }
 
-h1, h2, h3 {
-  line-height: 70px; }
+  h1, h2, h3 {
+    line-height: 70px; 
+    font-weight: bold;
+  }
 
-p{
-  margin-bottom: 40px;
-}
+  p{
+    margin-bottom: 40px;
+  }
 
-h2{
-  font-size: 50px;
-}
-.mike{
-  /*width: 100%;*/
-  float: left;
-  text-align: center;
-  margin-right: 30px;
+  h2{
+    font-size: 70px;
 
-}
+  }
+
+  h3{
+    font-size: 50px;
+  }
+
+  .lead{
+    text-align: center;
+    font-size: 28px;
+  }
+  .mike{
+    /*width: 100%;*/
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+
+  }
 
 
-.jaoudi{
-  float: left;
+  .jaoudi{
+    float: left;
     margin-left: auto;
 
     margin-right: auto;
 
-}
+  }
 
-.jaoudi h3{
-  text-align: right;
-}
+  .jaoudi h3{
+    text-align: right;
+  }
 
 
+  .title .btn {
+    font-size: 21px;
+    padding: 14px 24px; 
+  }
 
-.title .btn {
-  font-size: 21px;
-  padding: 14px 24px; 
-}
+  .btn-group{
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+    table-layout: fixed;
+    margin: auto;
+  }
 
-.nobottom{
-  margin-bottom: 0px;
-}
-.container-narrow {
-  margin: 0 auto;
-  max-width: 700px; }
+  .btn-group .btn{
+    display: table-cell;
+    width: initial;
+    margin-top: 10px;
 
-.container-narrow > hr {
-  margin: 30px 0; }
+  }
 
-.jumbotron {
-  margin: 60px 0;
-  text-align: center;
-  display: inline-block; 
-}
+  .btn-group img{
+    margin-right: 10px;
+  }
 
-.jumbotron h1 {
-  font-size: 110px;
-  line-height: 1; 
-}
+  .project-group p{
+    font-size: 20px;
+  }
 
-.jumbotron h3 {
+  .project-group .img-responsive{
+    margin: auto;
+  }
+
+  .project{
+    margin-bottom: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .project h3{
+    line-height: 50px;
+  }
+
+  .nobottom{
+    margin-bottom: 0px;
+  }
+  .container-narrow {
+    margin: 0 auto;
+    max-width: 700px; }
+
+    .container-narrow > hr {
+      margin: 30px 0; }
+
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+        display: inline-block; 
+        padding: 10px;
+        background-color: #fff;
+      }
+
+      .jumbotron h1 {
+        font-size: 110px;
+        line-height: 1; 
+      }
+
+      .lightgray{
+        background-color: #ccc
+      }
+
+      .jumbotron h3 {
 /*  text-align: right;
   margin-right: 60px;
   margin-bottom: .68em;*/
@@ -82,62 +136,33 @@ h2{
 
 .jumbotron .btn {
   font-size: 21px;
-  padding: 14px 24px; }
+  padding: 14px 24px; 
+}
 
 .marketing {
-  margin: 60px 0; }
+  margin: 60px 0; 
+}
 
 .marketing p + h4 {
-  margin-top: 28px; }
+  margin-top: 28px; 
+}
 
 .inline {
   margin-top: 40px;
-  display: inline; }
-
-
-
-.accordion-group {
-  /*width: 1000px;*/
-  margin-bottom: 20px;
-  border: 3px solid #444444;
-  box-shadow: 0px 1px 2px #888, 0px -1px 0px #111; }
-
-.accordion-heading a {
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000; }
-
-.accordion-heading a:hover {
-  text-decoration: none; }
-
-.accordion-heading p {
-  padding-left: 24px;
-  display: inline;
-  font-size: 30px; }
-
-.accordion-body p {
-  display: block;
-  font-size: 20px;
-  margin-left: 30px;
-  margin-right: 30px; }
-
-.accordion {
-  margin-right: 10px;
-  margin-left: 10px; }
-
-.accordion img {
-  margin-left: auto;
-  margin-right: auto; }
+  display: inline; 
+}
 
 .AppStore img {
   display: block;
   margin-top: 40px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px; 
+}
 
 .btn {
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto; 
+}
 
 .pict{
   float: left;
@@ -145,36 +170,74 @@ h2{
   margin-top: 20px;
 }
 
+p{
+  font-size: 16px;
+}
+
+ul{
+  font-size: 16px;
+}
+
 @media only screen and (max-width: 457px) {
-.socialicon {
-  float: left;
-  display: inline;
-  margin-top: 20px; 
-  margin-bottom: 20px;
-}
-
-.jumbotron{
-  margin: 0px;
-}
-
-.mike h1{
-  font-size: 80px;
-}
-.jaoudi h1{
-  font-size: 80px;
-}
-
-.jaoudi h3{
-  text-align: left;
-  font-size: 35px;
-}
-
-
+  .socialicon {
+    float: left;
+    display: inline;
+    margin-top: 20px; 
+    margin-bottom: 20px;
   }
+
+  .jumbotron{
+    margin: 0px;
+  }
+
+  .mike h1{
+    font-size: 80px;
+  }
+  .jaoudi h1{
+    font-size: 80px;
+  }
+
+  .jaoudi h3{
+    text-align: left;
+    font-size: 35px;
+  }
+
+  h2{
+    font-size: 54px;
+  }
+  h3{
+    font-size: 35px;
+  }
+  .project-group p{
+    font-size: 16px;
+  }
+
+  .container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lead{
+    font-size: 20px;
+  }
+
+  .col-md-6{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 690px) {
+  .jaoudi h3{
+    text-align: left;
+  }
+}
 @media only screen and (min-width: 457px) {
-.socialicon {
-  float: right;
-  display: inline;
-  margin-top: 20px; 
-  margin-bottom: 20px;
-} }
+  .socialicon {
+    float: right;
+    display: inline;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  } 
+}
