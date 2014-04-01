@@ -12,7 +12,7 @@ body {
   }
 
   p{
-    margin-bottom: 40px;
+    margin-bottom: 25px;
   }
 
   h2{
@@ -22,6 +22,10 @@ body {
 
   h3{
     font-size: 50px;
+  }
+
+  h4{
+    font-size: 42px;
   }
 
   .lead{
@@ -92,9 +96,10 @@ body {
     line-height: 50px;
   }
 
-  .nobottom{
-    margin-bottom: 0px;
-  }
+.tutorialtitle{
+  margin-bottom: 8px;
+  font-size: 26px;
+}
   .container-narrow {
     margin: 0 auto;
     max-width: 700px; }
