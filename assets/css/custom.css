@@ -4,237 +4,207 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   font-weight: 200;
-  line-height: 30px; }
-
-  h1, h2, h3 {
-    line-height: 70px; 
-    font-weight: bold;
-  }
-
-  p{
-    margin-bottom: 25px;
-  }
-
-  h2{
-    font-size: 70px;
-
-  }
-
-  h3{
-    font-size: 50px;
-  }
-
-  h4{
-    font-size: 42px;
-  }
-
-  .lead{
-    text-align: center;
-    font-size: 28px;
-  }
-  .mike{
-    /*width: 100%;*/
-    float: left;
-    text-align: center;
-    margin-right: 30px;
-
-  }
-
-
-  .jaoudi{
-    float: left;
-    margin-left: auto;
-
-    margin-right: auto;
-
-  }
-
-  .jaoudi h3{
-    text-align: right;
-  }
-
-
-  .title .btn {
-    font-size: 21px;
-    padding: 14px 24px; 
-  }
-
-  .btn-group{
-    width: 100%;
-    display: table;
-    border-collapse: separate;
-    table-layout: fixed;
-    margin: auto;
-  }
-
-  .btn-group .btn{
-    display: table-cell;
-    width: initial;
-    margin-top: 10px;
-
-  }
-
-  .btn-group img{
-    margin-right: 10px;
-  }
-
-  .project-group p{
-    font-size: 20px;
-  }
-
-  .project-group .img-responsive{
-    margin: auto;
-  }
-
-  .project{
-    margin-bottom: 100px;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  .project h3{
-    line-height: 50px;
-  }
-
-.tutorialtitle{
+  line-height: 30px;
+}
+h1,
+h2,
+h3 {
+  line-height: 70px;
+  font-weight: bold;
+}
+p {
+  margin-bottom: 25px;
+}
+h2 {
+  font-size: 70px;
+}
+h3 {
+  font-size: 50px;
+}
+h4 {
+  font-size: 42px;
+}
+.lead {
+  text-align: center;
+  font-size: 28px;
+}
+.mike {
+  float: left;
+  text-align: center;
+  margin-right: 30px;
+}
+.mike h1 {
+  font-weight: 800;
+}
+.jaoudi h1 {
+  font-weight: 800;
+}
+.jaoudi {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.jaoudi h3 {
+  text-align: right;
+  font-weight: 200;
+  color:#aaa
+}
+.title .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+.btn-group {
+  width: 100%;
+  display: table;
+  border-collapse: separate;
+  table-layout: fixed;
+  margin: auto;
+}
+.btn-group .btn {
+  display: table-cell;
+  width: initial;
+  margin-top: 10px;
+}
+.btn-group img {
+  margin-right: 10px;
+}
+.project-group p {
+  font-size: 20px;
+}
+.project-group .img-responsive {
+  margin: auto;
+}
+.project {
+  margin-bottom: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.project h3 {
+  line-height: 50px;
+}
+.tutorialtitle {
   margin-bottom: 8px;
   font-size: 26px;
 }
-  .container-narrow {
-    margin: 0 auto;
-    max-width: 700px; }
-
-    .container-narrow > hr {
-      margin: 30px 0; }
-
-      .jumbotron {
-        margin: 60px 0;
-        text-align: center;
-        display: inline-block; 
-        padding: 10px;
-        background-color: #fff;
-      }
-
-      .jumbotron h1 {
-        font-size: 110px;
-        line-height: 1; 
-      }
-
-      .lightgray{
-        background-color: #ccc
-      }
-
-      .jumbotron h3 {
-/*  text-align: right;
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+.jumbotron {
+  margin: 60px 0;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+.jumbotron h1 {
+  font-size: 110px;
+  /*line-height: 1;*/
+}
+.lightgray {
+  background-color: #ccc
+}
+.jumbotron h3 {
+  /*  text-align: right;
   margin-right: 60px;
   margin-bottom: .68em;*/
-  font-size: 45px; 
+
+  font-size: 45px;
   /*font-weight: 300;*/
 }
-
 .jumbotron p {
   /*float: center;*/
+
   margin: auto;
   max-width: 500px;
-  font-size: 26px; 
+  font-size: 26px;
 }
-
 .jumbotron .btn {
   font-size: 21px;
-  padding: 14px 24px; 
+  padding: 14px 24px;
 }
-
 .marketing {
-  margin: 60px 0; 
+  margin: 60px 0;
 }
-
 .marketing p + h4 {
-  margin-top: 28px; 
+  margin-top: 28px;
 }
-
 .inline {
   margin-top: 40px;
-  display: inline; 
+  display: inline;
 }
-
 .AppStore img {
   display: block;
   margin-top: 40px;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
-
 .btn {
   display: block;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
-
-.pict{
+.pict {
   float: left;
   margin-right: 10px;
   margin-top: 20px;
 }
-
-p{
+p {
   font-size: 16px;
 }
-
-ul{
+ul {
   font-size: 16px;
 }
-
 @media only screen and (max-width: 457px) {
   .socialicon {
     float: left;
     display: inline;
-    margin-top: 20px; 
+    margin-top: 20px;
     margin-bottom: 20px;
   }
-
-  .jumbotron{
+  .jumbotron {
     margin: 0px;
   }
-
-  .mike h1{
+  .mike h1 {
+    font-size: 80px;
+    margin-bottom:0px;
+  }
+  .jaoudi h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 80px;
   }
-  .jaoudi h1{
-    font-size: 80px;
-  }
-
-  .jaoudi h3{
+  .jaoudi h3 {
     text-align: left;
     font-size: 35px;
+    margin-top: 0px;
   }
-
-  h2{
+  h2 {
     font-size: 54px;
   }
-  h3{
+  h3 {
     font-size: 35px;
   }
-  .project-group p{
+  .project-group p {
     font-size: 16px;
   }
-
-  .container{
+  .container {
     padding-left: 0px;
     padding-right: 0px;
   }
-
-  .lead{
+  .lead {
     font-size: 20px;
   }
-
-  .col-md-6{
+  .col-md-6 {
     padding-left: 0px;
     padding-right: 0px;
   }
-
 }
-
 @media only screen and (max-width: 690px) {
-  .jaoudi h3{
+
+  .jaoudi h3 {
     text-align: left;
   }
 }
@@ -242,7 +212,7 @@ ul{
   .socialicon {
     float: right;
     display: inline;
-    margin-top: 20px; 
+    margin-top: 20px;
     margin-bottom: 20px;
-  } 
+  }
 }
